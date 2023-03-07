@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Aula 01 - Primeiro app!</string>
+    <string name="botao">Botão</string>
+    <string name="escreve">Escreve</string>
+    <string name="apaga">Apaga</string>
 </resources>
