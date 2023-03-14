@@ -10,12 +10,13 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/ola_mundo"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -27,15 +28,15 @@
         tools:layout_editor_absoluteX="-1dp">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/botaoEscreve"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="292dp"
             android:layout_weight="1"
+            android:onClick="botaoEscreve"
             android:text="@string/escreve" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/botaoApaga"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
